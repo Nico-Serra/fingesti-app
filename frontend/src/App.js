@@ -1,16 +1,13 @@
-import React from 'react';
-import './App.css';
-import ExpenseList from './components/ExpenseList';
+import React from "react";
+import ExpenseList from "./components/ExpenseList";
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <h1>Gestione Spese</h1>
-            </header>
-            <ExpenseList />
-        </div>
-    );
+  return (
+    <div>
+      <h1>Gestione Finanze</h1>
+      <ExpenseList />
+    </div>
+  );
 }
 
 export default App;
